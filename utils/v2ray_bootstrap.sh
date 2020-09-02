@@ -2,7 +2,7 @@
 
 ipset destroy v2rayallow
 ipset flush v2rayallow
-ipset create v2rayallow hash:ip hashsize 1024 maxelem 65536
+ipset create v2rayallow hash:net hashsize 1024 maxelem 65536
 ipset destroy cloudflareallow
 ipset flush v2rayallow
 ipset create cloudflareallow hash:net hashsize 1024 maxelem 65536
